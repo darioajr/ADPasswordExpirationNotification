@@ -25,5 +25,9 @@ You can implement or comment this:
                 & "(!userAccountControl:1.2.840.113556.1.4.803:=65536)" _
                 & "(!userAccountControl:1.2.840.113556.1.4.803:=32)" _
                 & "(!userAccountControl:1.2.840.113556.1.4.803:=48))"
-    
+
+Below change your e-mail and mobile fields (alternativeMail,alternativeMobile) to your AD fields (mail, mobile)
+' Define search attributes.
+strAttributes = "cn, sAMAccountName,mail,proxyAddresses,pwdLastSet,alternativeMail,alternativeMobile, distinguishedName"
+   
 ```
