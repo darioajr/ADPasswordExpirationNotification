@@ -3,10 +3,10 @@ Script to send email to users about password expiration
 
 Please change this settings:
 
-## Number of days the password expiration check.
-### intDays = 3
+Number of days the password expiration check.
+intDays = 3
 
-## and
+and
 
-## Defined manually when not using the default policy.
-### sngMaxPwdAge = 63 
+Defined manually when not using the default policy.
+sngMaxPwdAge = 63 
