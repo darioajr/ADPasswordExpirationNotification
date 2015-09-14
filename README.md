@@ -20,7 +20,7 @@ You can implement or comment this:
   strFilter = "(&(objectCategory=person)(objectClass=user)" _
                 & "(pwdLastSet>=" & str64Bit1 & ")" _
                 & "(pwdLastSet<=" & str64Bit2 & ")" _
-	              & "(alternativeNotification=1)" _ 
+	        & "(alternativeNotification=1)" _ 
                 & "(!userAccountControl:1.2.840.113556.1.4.803:=2)" _
                 & "(!userAccountControl:1.2.840.113556.1.4.803:=65536)" _
                 & "(!userAccountControl:1.2.840.113556.1.4.803:=32)" _
